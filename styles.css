@@ -1,0 +1,110 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+#head{
+
+}
+
+#top{
+background-image: url('Images/pillows.jpeg');
+text-align: center;
+color: white;
+
+}
+
+#timeless{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+  background-color: #D9D9D9;
+}
+
+#print{
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+}
+
+#highquality{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    height:100px;
+    width: 10%;
+
+}
+
+#clothes{
+    gap:10px;
+
+}
+
+#contact{
+    border-radius: 20%;
+}
+
+#contactus{
+height: 450px;
+background-image: url('Images/maps.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#footer{
+    background-color: rgb(2, 2, 14);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    color: white;
+
+}
+
+.middle{
+    text-align: center;
+}
+
+.card{
+    padding: 2px 16px;
+    background-color: white;
+    margin-right:50% ;
+    margin-left: 10%;
+
+    border-radius: 10%;
+}
+
+#b1{
+    height: 50px;
+    width: 100px;
+
+}
+#b2{
+    height: 50px;
+    width: 100px;
+background-color: limegreen;
+color: white;
+border-radius: 40%
+}
+#b3{
+    height: 50px;
+    width: 100px;
+border-radius: 40%
+
+}
