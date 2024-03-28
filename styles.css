@@ -9,7 +9,7 @@ body{
     gap: 40px;
 }
 #head{
-
+  background-color: green;
 }
 
 #top{
@@ -22,7 +22,8 @@ color: white;
 #timeless{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 80px;
+    margin-left: 15%;
 }
 
 #images{
@@ -41,19 +42,24 @@ color: white;
     display: flex;
     flex-direction: row;
     gap:25px;
+    margin-left: 10%;
 }
 
 #icons{
     display: flex;
     flex-direction: row;
-    height:100px;
+    height:40px;
+    gap:100px;
     width: 10%;
 
 }
 
 #clothes{
     gap:10px;
-
+ 
+}
+#clothwear{
+    margin-left: 10%;
 }
 
 #contact{
@@ -68,12 +74,14 @@ background-size: cover;
 }
 
 #footer{
+    
     background-color: rgb(2, 2, 14);
     background-size: cover;
     display: flex;
     flex-direction: row;
-    gap:10px;
+    gap:50px;
     color: white;
+    height: 400px;
 
 }
 
@@ -90,6 +98,9 @@ background-size: cover;
     border-radius: 10%;
 }
 
+.stars{
+    height:20px;
+}
 #b1{
     height: 50px;
     width: 100px;
@@ -107,4 +118,68 @@ border-radius: 40%
     width: 100px;
 border-radius: 40%
 
+}
+.lastimg{
+    height:150px;
+    width:150px;
+    margin-top: 10%;
+}
+#bottom{
+    background-color: rgb(2, 2, 14);
+    color: white;
+
+}
+
+@media only screen and( min-width: 300px) and (max-width: 500px){
+    #header{
+        flex-direction: column; 
+    }
+    #timeless{
+        flex-direction: column; 
+        gap: 10px;
+
+    }
+
+    #highquality{
+        
+        flex-direction: column;
+        gap:2px;
+    
+    }
+.cloth{
+    width: 200px;
+    height: 250px;
+}
+
+#icons{
+
+    flex-direction: column;
+    height:40px;
+    gap:5px;
+    width: 10%;
+
+}
+
+#images{
+    flex-direction: column;
+  background-color: #D9D9D9;
+}
+
+#print{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+
+    #footer{
+    
+        background-color: rgb(2, 2, 14);
+        background-size: cover;
+        flex-direction: column;
+        gap:0;
+        color: white;
+        width: 100%;
+    
+    }
+    
 }
